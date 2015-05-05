@@ -5,8 +5,6 @@ Udacity Project1
 
 -This project shows a list of movie names and information about the movies like moviename,trailer, language of the movie and poster image of the movie.
 
--The searchbox is used to search a movie based on the moviename or the language of the movie.
-
 -We can see the trailer of the movie by clicking on it.
 
 -Bootstrap is used for the designing.
