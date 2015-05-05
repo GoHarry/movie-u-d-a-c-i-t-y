@@ -33,10 +33,8 @@ Python - https://www.python.org/downloads/mac-osx/
 
 ###FILES INCLUDED IN PROJECT
 
-1)media.py - In these file we created a class called Movie.
+1)media.py - In these file we created a class called Movie and created multiple instances of the class Movie. We also need to import the file fresh_tomatoes in this file to open a html page with the list of movies.
 
-2)entertainment.py - In these file we are creating multiple instances of the class Movie by importing the previous file media.py in which the class Movie is declared.we also need to import the file fresh_tomatoes in this file to open a html page with the list of movies.
-
-3)fresh_tomatoes.py - This file consists a function open_movie_page that takes a list of movies as input and creates an html page that shows the list of movies.These file also contains of scripts that perform the search and play youtube videos on your website and bootstrap stylesheets to apply styles to our website.
+2)fresh_tomatoes.py - This file consists a function open_movie_page that takes a list of movies as input and creates an html page that shows the list of movies.These file also contains of scripts that perform the search and play youtube videos on your website and bootstrap stylesheets to apply styles to our website.
 
 so we need to run entertainment file to see the output as we have imported media and fresh_tomatoes files in entertainment file.
