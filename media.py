@@ -1,9 +1,16 @@
 import fresh_tomatoes
+
+#This class creates a Movie instance and provides a way to save Movie information.
+
 class Movie():
+	
 	def __init__(self, title, poster_image, trailer_url):
 		self.title=title
 		self.poster_image_url=poster_image
 		self.trailer_youtube_url=trailer_url
+
+#Below are the instances of class Movie. Each instance refers to a different movie. The instances of class contain their titles, 
+# links to their image posters and their trailer youtube links.
 
 sholay = Movie("Sholay", "http://indiaopines.com/wp-content/uploads/2013/11/Sholay-poster.jpg", "https://www.youtube.com/watch?v=36SMdfwisLg")
 ddlj   = Movie("Dilwale Dulhaniya Le Jaayenge","http://www.du360.in/wp-content/uploads/2014/12/Dilwale-Dulhania-Le-Jayenge-poster.jpg",
@@ -20,5 +27,12 @@ babysdayout = Movie("Baby's Day Out (1994)","http://ia.media-imdb.com/images/M/M
 skyfall = Movie("Skyfall","http://t2.gstatic.com/images?q=tbn:ANd9GcTSNSk0M1z_CZ1UKTnfE2nHmk4Oxqh_gKO0dAHZHwrfLX6D9Y4s",
 	"https://www.youtube.com/watch?v=A82nMyFLdtQ")
 lifeofpi = Movie("Life of Pi","http://www.impawards.com/2012/posters/life_of_pi.jpg","https://www.youtube.com/watch?v=j9Hjrs6WQ8M")
+
+
+#This list stores information of all movies
+
 movies = [sholay, ddlj, titanic, spiderman, ironman, avengers, babysdayout, skyfall, lifeofpi]
+
+# The movies list is passed as an argument to open movies page method
+
 fresh_tomatoes.open_movies_page(movies)
